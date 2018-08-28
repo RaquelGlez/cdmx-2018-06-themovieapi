@@ -6,7 +6,7 @@ window.getMovies = (apiFinal) => {
     .then(response => response.json())
     .then((data) => {
       console.log(data);
-      //return data;
+      // return data;
       // aqui pintas
       viewSearch(data);
       // viewMovies(data);

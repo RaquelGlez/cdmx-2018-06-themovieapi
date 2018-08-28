@@ -15,36 +15,10 @@ window.viewSearch = (data) => {
       <div class="card-body">
         <p class="card-text">${movies[i].Title}</p>
       </div>
-    </div>`
-
-
-    // `<div class="card">
-    //   <img class="card-img-top" src="${movies[i].Poster}" alt="Card image cap">
-    //   <div class="card-body">
-    //     <p class="card-title">${movies[i].Title}</p>
-    //   </div>
-    // </div>`
-  }
-
-
-  // for (let i = 0; i < search.length; i++) {
-  //   info.innerHTML += `
-  //   <p>${search[i].Title}</p>
-  //   <img src="${search[i].Poster}" alt="">
-  //   `;
-  // };
+    </div>`;
+  };
 };
-// window.viewMovies = (data) => {
-//   const movies = Object.values(data.Search)
-//   console.log(movies);
-//
-//   // for (let i = 0; i < search.length; i++) {
-//   //   info.innerHTML += `
-//   //   <p>${search[i].Title}</p>
-//   //   <img src="${search[i].Poster}" alt="">
-//   //   `;
-//   // };
-// };
+
 // Declaramos la función asociada a obtener la api completa, incluyendo la apikey y la busqueda
 const getSearch = (title) => {
   let api = 'http://www.omdbapi.com/?apikey=ea9cd228&s=';
