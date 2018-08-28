@@ -21,7 +21,7 @@ window.viewSearch = (data) => {
 
 // Declaramos la función asociada a obtener la api completa, incluyendo la apikey y la busqueda
 const getSearch = (title) => {
-  let api = 'http://www.omdbapi.com/?apikey=ea9cd228&s=';
+  let api = 'https://www.omdbapi.com/?apikey=ea9cd228&s=';
   let searchApi = title.replace(/[' ']/gi ,'+');
   document.getElementById('titleMovie').value = '';
   let fullApi = `${api}${searchApi}`;

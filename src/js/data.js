@@ -15,19 +15,3 @@ window.getMovies = (apiFinal) => {
       console.log('Error');
     });
 };
-
-// getMovies(apiActual, searchActual);
-// getMovies(apiActual, searchActual).then()
-// window.viewMovies = (data) => {
-//   const movies = Object.values(data.Search)
-//   console.log(movies);
-//
-//
-//   // for (let i = 0; i < search.length; i++) {
-//   //   info.innerHTML += `
-//   //   <p>${search[i].Title}</p>
-//   //   <img src="${search[i].Poster}" alt="">
-//   //   `;
-//   // };
-//
-// };
